@@ -1,0 +1,192 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: skyblue;
+    }
+    
+    .navbar-brand {
+        font-weight: bold;
+    }
+    
+    .navbar-nav .nav-link {
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        color: gold;
+    }
+    
+    
+
+    /* Mengatur warna teks menjadi gold */
+    .home-section,
+    .about-section,
+    .experience-section,
+    .education-section,
+    .skills-section,
+    .portfolio-section,
+    .contact-section,
+    .skills-section .skills-graphics div
+    {
+    color: gold;
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+
+    
+    .home-section {
+        background: white url("C:\\Users\\KATANA\\Downloads\\Project WebDev\\bg2.jpeg") no-repeat center center/cover;
+        position: relative;
+        padding: 100px 0;
+    }
+    
+    .about-section,
+    .experience-section,
+    .education-section,
+    .skills-section,
+    .portfolio-section,
+    .contact-section {
+        position: relative;
+        padding: 60px 0;
+    }
+    
+    .about-section {
+        background: url("C:\\Users\\KATANA\\Downloads\\Project WebDev\\bg2.jpeg") no-repeat center center/cover;
+    }
+    
+    .experience-section {
+        background: url("C:\\Users\\KATANA\\Downloads\\Project WebDev\\bg2.jpeg") no-repeat center center/cover;
+    }
+    
+    .education-section {
+        background: url("C:\\Users\\KATANA\\Downloads\\Project WebDev\\bg2.jpeg") no-repeat center center/cover;
+    }
+    
+    .skills-section {
+        background: url("C:\\Users\\KATANA\\Downloads\\Project WebDev\\bg2.jpeg") no-repeat center center/cover;
+    }
+    
+    .portfolio-section {
+        background: url("C:\\Users\\KATANA\\Downloads\\Project WebDev\\bg2.jpeg") no-repeat center center/cover;
+    }
+    
+    .contact-section {
+        background: url("C:\\Users\\KATANA\\Downloads\\Project WebDev\\bg2.jpeg") no-repeat center center/cover;
+    }
+    
+
+    .about-section h2,
+    .experience-section h2,
+    .education-section h2,
+    .skills-section h2,
+    .portfolio-section h2,
+    .contact-section h2 {
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+    }
+    
+    .about-section p,
+    .experience-section p,
+    .education-section p,
+    .skills-section p,
+    .portfolio-section p,
+    .contact-section p {
+        margin-bottom: 20px;
+        text-align: justify;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    .skills-graphics {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        padding: 10px 0;
+        color: #333;
+    }
+    
+    
+    .portfolio-item {
+        text-decoration: none;  
+        color: white;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .portfolio-item:hover {
+        color: gold;
+    }
+    
+    .contact-section {
+        text-align: left;
+    }
+    
+    footer {
+        background: #333;
+        color: gold;
+        text-align: center;
+        text-decoration-color: wheat;
+        padding: 10px 0;
+    }
+
+    .contact-section form label {
+        text-align: left; 
+        display: block; 
+    }
+    
+    .contact-section form input,
+    .contact-section form textarea {
+        width: 100%; 
+        padding: 8px; 
+        margin-bottom: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+    }
+    
+    .contact-section form textarea {
+        resize: vertical; 
+    }
+    
+    .contact-section form button {
+        width: 100%; 
+        padding: 10px; 
+        background-color:black; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+    }
+    
+    .contact-section form button:hover {
+        background-color: skyblue; 
+    }
+    
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    @media (max-width: 600px) {
+        .skills-graphics {
+        flex-direction: column;
+        }
+    }
+    
+    @media (min-width: 601px) and (max-width: 900px) {
+        .skills-graphics {
+        flex-direction: row;
+        }
+    }
+    
+    @media (min-width: 901px) {
+        .skills-graphics {
+        flex-direction: row;
+        }
+    }
+    
